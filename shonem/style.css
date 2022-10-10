@@ -1,0 +1,46 @@
+body {
+    width: 900px;
+    margin: auto;
+}
+
+h1 {
+    text-align: center;
+    background: grey;
+}
+
+.menu {
+    width: 750px;
+    margin: auto;
+}
+
+.menu li{
+    width: 165px;
+    display: inline-block;
+    box-sizing: border-box;
+    height: 30%;
+    border: 3px solid black;
+    margin: 5px;
+    padding: 5px;
+
+}
+
+.menu li:hover {
+    width: 165px;
+    border: 3px solid blue;
+}
+
+.menu a {
+    text-decoration: none;
+    color: black;
+}
+
+.menu h5 {
+    font-size: 20px;
+    text-align: center;
+
+}
+
+.imgmenu {
+    width: 150px;
+    height: 200px;
+}
